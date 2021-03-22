@@ -1,0 +1,57 @@
+body {
+    text-align: center
+}
+
+.line {
+    height: 6px;
+    width: 60px;
+    background-color: black;
+    margin: auto
+}
+
+section {
+    height: 800px;
+    width: 100%;
+    padding-top: 20px
+}
+
+#applab {
+    background: linear-gradient(red 0%, orange 100%);
+}
+
+#games {
+    background: linear-gradient(yellow 1%, green 99%);
+}
+
+#chatbot {
+    background: linear-gradient(blue 0%, pink 100%);
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+
+#bio {
+    margin-top: 20px
+}
+
+#pogpic {
+    width: 500px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#bio {font-size: 25px}
+
+#mygames { background-color: deepskyblue}
+
+#mygames img { margin-top: 35px;
+height:300px;}
+
+#mygames p {margin-bottom: 50px;
+margin-top: 50px;
+font-size: 20;
+color:white}
